@@ -1,5 +1,9 @@
 <%= will_paginate @places, renderer: WillPaginate::ActionView::BootstrapLinkRenderer, list_classes: %w(pagination justify-content-center) %>
 
+<div class="index-header-container">
+  <h1 class="index-header">Nomster</h1>
+</div>
+
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -16,7 +20,7 @@
     <div class="carousel-item">
       <%= image_tag 'slider2.jpg', class: 'd-block img-fluid' %>
       <div class="carousel-caption d-none d-md-block">
-        <h3>The best pizza is around the corner</h3>
+        <h3>Your favorite new breakfast spot</h3>
       </div>
     </div>
     <div class="carousel-item">
