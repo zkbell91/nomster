@@ -9,9 +9,7 @@
     <div class = "img-sample">
       <% if place.photos.present? %>
         <div class="col-12">
-          <blockquote>
-            <img class="thumbnail" src="<%= place.photos.last.picture %>">
-          </blockquote>
+            <img class="rounded col-md-3 col-sm-6 col-xs-12 " src="<%= place.photos.last.picture %>">
         </div>
       <% end %>
     </div>
@@ -28,7 +26,5 @@
       </div>
     <% end %>
   </div>
-
-   
 
 <% end %>
