@@ -6,4 +6,7 @@ Rails.application.routes.draw do
     resources :photos, only: :create
     resources :caption, only: :create
   end
+
+  resources :users, only: :show
+  
 end
