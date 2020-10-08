@@ -1,24 +1,20 @@
-# README
+![Sample Page](docs/images/sample-entry.png)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Nomster
 
-Things you may want to cover:
+A Yelp clone featuring a crowd-sourced list of businesses. Nomster gives users the ability to create new listings, provide reviews and allows rankings and comments. This app utilizes Google Maps API to show users precise location of listings and is mobile responsive.
 
-* Ruby version
+## Built With
 
-* System dependencies
+* Ruby on Rails 5.2.3
+* Ruby 2.5.3
+* AWS S3 Storage
 
-* Configuration
+## Gems
 
-* Database creation
+* [Devise](https://github.com/heartcombo/devise) - User management and authentication
+* [Carrierwave](https://github.com/carrierwaveuploader/carrierwave) and [MiniMagick](https://github.com/minimagick/minimagick) - Media uploading 
 
-* Database initialization
+## Acknowledgments
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* [The Firehose Project](https://thefirehoseproject.com)
