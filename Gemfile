@@ -79,3 +79,5 @@ gem 'geocoder'
 gem 'figaro'
 gem 'carrierwave', '~> 1.0'
 gem 'fog-aws'
+
+gem 'rubocop', '~> 0.74.0', require: false
